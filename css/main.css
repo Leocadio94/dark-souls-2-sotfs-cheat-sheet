@@ -210,6 +210,32 @@ input[type="checkbox"]:checked ~ * > .glyphicon-chevron-down {
   display: inline-block;
 }
 
+.profile {
+  float: right; 
+  padding-top: 8px;
+}
+
+.input-group {
+  display: flex; 
+  flex-direction: row;
+}
+
+.input-group-btn {
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    float: none; 
+  }
+  .input-group {
+    flex-direction: column;
+  }
+  .input-group-btn {
+    padding-left: 0;
+  }
+}
+
 /*
 input[type="checkbox"] ~ .glyphicon-eye-close { display:none; }
 

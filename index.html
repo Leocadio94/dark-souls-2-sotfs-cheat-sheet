@@ -13,18 +13,27 @@
 <body>
     <nav class="navbar navbar-default">
         <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Dark Souls 2 SOTFS</a>
+            </div>
                 
-                    
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#tabPlaythrough" data-toggle="tab">Playthrough</a></li>
-                <li><a href="#tabChecklists" data-toggle="tab">Checklists</a></li>
-                <li><a href="#tabInformation" data-toggle="tab">Information</a></li>
-                <li><a href="#tabHelp" data-toggle="tab">Help</a></li>
-            </ul>
-                <div class="profile" style="float: right; padding-top: 8px;">
-                    <div class="input-group" style="display: flex; flex-direction: row;">
-                        <select class="form-control" style="width: auto;" id="themes"><!-- Gets filled by jQuery. --></select>
-                        <select class="form-control" style="width: auto;" id="profiles"></select>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#tabPlaythrough" data-toggle="tab">Playthrough</a></li>
+                    <li><a href="#tabChecklists" data-toggle="tab">Checklists</a></li>
+                    <li><a href="#tabInformation" data-toggle="tab">Information</a></li>
+                    <li><a href="#tabHelp" data-toggle="tab">Help</a></li>
+                </ul>
+                <div class="profile">
+                    <div class="input-group">
+                        <select class="form-control" style="width: 100%;" id="themes"><!-- Gets filled by jQuery. --></select>
+                        <select class="form-control" style="width: 100%;" id="profiles"></select>
                         <span class="input-group-btn">
                             <button class="btn btn-default" type="button" id="profileAdd">Add</button>
                             <button class="btn btn-default" type="button" id="profileEdit">Edit</button>
@@ -32,7 +41,8 @@
                         </span>
                     </div>
                 </div>
-                    
+            </div>
+                
                 
         </div>
     </nav>
@@ -139,7 +149,7 @@
                 <ul id="Things_Betwixt_col" class="panel-collapse collapse in">
                     <li data-id="playthrough_1_1">Head through the gap in the wall, turn right and in to the hidden area beside the fallen tree to get the <a href="https://darksouls2.wiki.fextralife.com/rusted+coin">Rusted Coin</a></li>
                     <li data-id="playthrough_1_2">Enter the house and choose your name, class, starting gift and appearance</li>
-                    <li data-id="playthrough_1_3">Talk to <a href="https://darksouls2.wiki.fextralife.com/housekeeper+milibeth">Housekeeper Milibeth</a> and the <a href="https://darksouls2.wiki.fextralife.com/firekeepers">Old Firekeepers</a></li>
+                    <li data-id="playthrough_1_3">Talk to <a href="https://darksouls2.wiki.fextralife.com/milibeth">Housekeeper Milibeth</a> and the <a href="https://darksouls2.wiki.fextralife.com/firekeepers">Old Firekeepers</a></li>
                     <li data-id="playthrough_1_4">Go upstairs and get the <a href="https://darksouls2.wiki.fextralife.com/human+effigy">Human Effigy</a> from the chest</li>
                     <li data-id="playthrough_1_5">Go out the door beside the women, destroy the cart to get the <a href="https://darksouls2.wiki.fextralife.com/soul+of+a+lost+undead">Soul of a Lost Undead</a> and <a href="https://darksouls2.wiki.fextralife.com/torch">Torch</a>, and rest at the bonfire</li>
                     <li data-id="playthrough_1_6">Go back through the house and take the hidden path below the bridge to get the <a href="https://darksouls2.wiki.fextralife.com/small+smooth+silky+stone">Small Smooth and Silky Stone</a></li>
@@ -147,7 +157,7 @@
                     <li data-id="playthrough_1_8">Get the <a href="https://darksouls2.wiki.fextralife.com/gold+pine+resin">Gold Pine Resin</a> from the corpse</li>
                     <li data-id="playthrough_1_9">Return to the bonfire and continue to the tutorial section</li>
                     <li data-id="playthrough_1_10">Go through the first fog gate, complete the section, getting the <a href="https://darksouls2.wiki.fextralife.com/dagger">Dagger</a> and <a href="https://darksouls2.wiki.fextralife.com/lifegem">Lifegem</a> along the way</li>
-                    <li data-id="playthrough_1_11">Leave the <a href="https://darksouls2.wiki.fextralife.com/small+smooth+silky+stone">Small Smooth and Silky Stone</a> on the nest for <a href="https://darksouls2.wiki.fextralife.com/snuggly+the+crow">Sparkling Sisters Dyna and Tillo</a> to get a random item and kick down the ladder</li>
+                    <li data-id="playthrough_1_11">Leave the <a href="https://darksouls2.wiki.fextralife.com/small+smooth+silky+stone">Small Smooth and Silky Stone</a> on the nest for <a href="https://darksouls2.wiki.fextralife.com/Dyna+and+Tillo">Sparkling Sisters Dyna and Tillo</a> to get a random item and kick down the ladder</li>
                     <li data-id="playthrough_1_12">Drop off the ledge to get the <a href="https://darksouls2.wiki.fextralife.com/soul+of+a+nameless+soldier">Soul of a Nameless Soldier</a> and drop down to the main path</li>
                     <li data-id="playthrough_1_13">Go through the second fog gate and jump the gap to get the <a href="https://darksouls2.wiki.fextralife.com/amber+herb">Amber Herbs</a></li>
                     <li data-id="playthrough_1_14">Jump back and go up the ladder, drop down and open the door to get the <a href="https://darksouls2.wiki.fextralife.com/cracked+red+eye+orb">Cracked Red Eye Orb</a></li>
@@ -158,7 +168,7 @@
 		            <li data-id="playthrough_1_19">Kill the <a href="https://darksouls2.wiki.fextralife.com/Pursuer">Pursuer</a> that spawns on the beach</li>
                     <li data-id="playthrough_1_20">Optionally sleep in the coffin to change the sex of your character</li>
 		            <li data-id="playthrough_1_21">Light all the sconces in the area for a Black Phantom to spawn</li>
-                    <li data-id="playthrough_1_22">Go back to the house and talk to <a href="https://darksouls2.wiki.fextralife.com/housekeeper+milibeth">Housekeeper Milibeth</a> to get the <a href="https://darksouls2.wiki.fextralife.com/handmaids+ladle">Handmaid's Ladle</a></li>
+                    <li data-id="playthrough_1_22">Go back to the house and talk to <a href="https://darksouls2.wiki.fextralife.com/milibeth">Housekeeper Milibeth</a> to get the <a href="https://darksouls2.wiki.fextralife.com/Handmaid's+Ladle">Handmaid's Ladle</a></li>
                     <li data-id="playthrough_1_23">Head back to the tutorial section and continue on to <a href="https://darksouls2.wiki.fextralife.com/majula">Majula</a></li>
                     <li data-id="playthrough_1_24">On the way drop off to the right between the boulders to get <a href="https://darksouls2.wiki.fextralife.com/morning+star">Morning Star</a>, <a href="https://darksouls2.wiki.fextralife.com/clerics+s+sacred+chime">Cleric's Sacred Chime</a> and <a href="https://darksouls2.wiki.fextralife.com/binoculars">Binoculars</a></li>
                 </ul>
